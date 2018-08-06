@@ -1,0 +1,42 @@
+package nonobank;
+
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.locks.AbstractQueuedSynchronizer;
+import java.util.concurrent.locks.Condition;
+import java.util.concurrent.locks.Lock;
+
+public class YaoStyleLock implements Lock, java.io.Serializable { 
+
+	/**  
+	* @Fields field:field:{todo}(用一句话描述这个变量表示什么)  
+	*/  
+	private static final long serialVersionUID = -7167963242999932519L;
+
+	public void lock() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void lockInterruptibly() throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+	}
+	public boolean tryLock() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public boolean tryLock(long time, TimeUnit unit) throws InterruptedException {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public void unlock() {
+		// TODO Auto-generated method stub
+
+
+	}
+	public Condition newCondition() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}
